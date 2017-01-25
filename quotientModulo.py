@@ -1,0 +1,5 @@
+a = int(raw_input("Input a Number(Num):"))
+b = int(raw_input("Input a Number(Den):"))
+print(a//b)
+print(a%b)
+print(divmod(a,b))
