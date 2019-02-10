@@ -71,7 +71,7 @@ def solution(A, B):
     if 1 not in A and 1 not in B:
         return 1
     combinations = [
-        A[:each] + [B[each]] + A[each + 1:] for each in range(len(A))
+        A[:each] + [B[each]] + A[each + 1 :] for each in range(len(A))
     ]
     combinations.append(A)
     score_list = [

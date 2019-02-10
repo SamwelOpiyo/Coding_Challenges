@@ -13,5 +13,6 @@ If our input was [3, 2, 1], the expected output would be [2, 3, 6].
 # find the product using reduce and product function, lambda a, b: a * b.
 
 prod = lambda x: [
-    reduce(lambda a, b: a * b, x[:each] + x[each + 1:]) for each in range(len(x))
+    reduce(lambda a, b: a * b, x[:each] + x[each + 1 :])
+    for each in range(len(x))
 ]
